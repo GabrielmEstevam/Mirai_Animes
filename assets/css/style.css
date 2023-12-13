@@ -165,31 +165,6 @@ header span{
       .botao:hover{
         opacity: .8;
       }
-      #secao-apresentacao, #secao-apresentacao1, #secao-apresentacao2, #secao-apresentacao3 {
-        display: flex;
-        height: 50vh;
-        padding: 2rem;
-        padding-top: 5rem;
-        gap: 2rem;
-
-      }
-
-      #secao-apresentacao img:first, #secao-apresentacao1 img:first, #secao-apresentacao2 img:first, #secao-apresentacao3 img:first {
-
-        width: 20rem;
-        height: 16rem;
-
-      }
-
-      #secao-apresentacao div, #secao-apresentacao1 div, #secao-apresentacao2 div, #secao-apresentacao3 div {
-
-        display: flex;
-        gap: 1rem; 
-        flex-direction: column;
-        align-items: flex-start;
-        max-width: 60%;
-
-      }
 
       .plataformas{
         display: flex;
