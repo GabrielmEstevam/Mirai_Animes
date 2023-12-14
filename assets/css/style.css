@@ -40,7 +40,6 @@
   header {
     text-align: start; /* Alinha o texto no início da página */
     padding: 10px; /* Adiciona espaçamento interno ao header */
-    background-color: #333; /* Cor de fundo do header */
     color: #fff; /* Cor do texto no header */
   }
 
@@ -88,7 +87,6 @@
     header {
       text-align: start; /* Alinha o texto no início da página */
       padding: 10px; /* Adiciona espaçamento interno ao header */
-      background-color: #333; /* Cor de fundo do header */
       color: #fff; /* Cor do texto no header */
     }
   
@@ -128,7 +126,6 @@
     header {
       text-align: start; /* Alinha o texto no início da página */
       padding: 10px; /* Adiciona espaçamento interno ao header */
-      background-color: #333; /* Cor de fundo do header */
       color: #fff; /* Cor do texto no header */
     }
   
@@ -154,7 +151,7 @@
     }
   
     .card {
-      width: 30%; /* Três cards por linha */
+      width: 24%; /* Três cards por linha */
       margin-right: 2%; /* Espaçamento entre os cards */
       margin-bottom: 15px; /* Espaçamento entre os cards */
       /* Adicione mais ajustes de estilo conforme necessário para os cards em tablets e laptops */
@@ -168,7 +165,6 @@
     header {
       text-align: start; /* Alinha o texto no início da página */
       padding: 10px; /* Adiciona espaçamento interno ao header */
-      background-color: #333; /* Cor de fundo do header */
       color: #fff; /* Cor do texto no header */
     }
   
