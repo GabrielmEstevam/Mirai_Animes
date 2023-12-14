@@ -189,15 +189,13 @@
   
     img {
       max-width: 100%; /* Imagens responsivas */
-      height: auto;
+      height: 100%;
       margin-bottom: 15px; /* Adiciona espaçamento entre as imagens */
     }
   
     .card {
-      width: 23%; /* Quatro cards por linha */
-      margin-right: 2%; /* Espaçamento entre os cards */
-      margin-bottom: 15px; /* Espaçamento entre os cards */
-      /* Adicione mais ajustes de estilo conforme necessário para os cards em computadores desktop e notebooks */
+      width: 100%; /* Quatro cards por linha */
+     
     }
   
     .card-image-wrapper {
@@ -208,7 +206,6 @@
     header {
       text-align: start; /* Alinha o texto no início da página */
       padding: 10px; /* Adiciona espaçamento interno ao header */
-      background-color: #333; /* Cor de fundo do header */
       color: #fff; /* Cor do texto no header */
     }
   
