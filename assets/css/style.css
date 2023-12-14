@@ -46,7 +46,7 @@
   
     img {
       max-width: 100%; /* Imagens responsivas */
-      height: auto;
+      margin-right: 2%;
       margin-bottom: 10px; /* Espaçamento inferior entre as imagens */
     }
   
@@ -74,7 +74,7 @@
     }
   
     .card {
-      width: 48%;
+      width: 100%;
       margin-right: 2%;
       margin-bottom: 15px;
     }
