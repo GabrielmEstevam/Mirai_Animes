@@ -14,7 +14,6 @@
   header {
     text-align: start; /* Alinha o texto no início da página */
     padding: 10px; /* Adiciona espaçamento interno ao header */
-    background-color: #333; /* Cor de fundo do header */
     color: #fff; /* Cor do texto no header */
   }
 
@@ -73,7 +72,7 @@
     }
   
     .card-image-wrapper {
-      width: 100%; /* Wrapper de imagem do card expande para a largura total da tela */
+      width: 40%; /* Wrapper de imagem do card expande para a largura total da tela */
       /* Adicione mais ajustes de estilo conforme necessário para o wrapper de imagem do card em smartphones */
     }
   }
@@ -228,7 +227,7 @@ h1{
         height: 90vh;
         padding-top: 5rem;
         background-image: url('../img/background__resized.png');
-        
+        position: relative;
     
     }
     
@@ -316,3 +315,18 @@ h1{
       align-items: top;
       height: 100%;
   }
+
+  #curiosidades{
+    height: 235vh;
+    padding-top: 5rem;
+    background-image: url('../img/background__.png');
+    position: relative;
+
+}
+
+
+.card h3{
+    color: white;
+    font-size: .9rem;
+    align-content: flex-start;
+}
