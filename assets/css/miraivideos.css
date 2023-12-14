@@ -1,11 +1,152 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap');
 *
+
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
   }
+
+/* Estilos para resolução entre 300px e 800px */
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+
+  header {
+    text-align: start; /* Alinha o texto no início da página */
+    padding: 10px; /* Adiciona espaçamento interno ao header */
+    background-color: #333; /* Cor de fundo do header */
+    color: #fff; /* Cor do texto no header */
+  }
+
+  header img {
+    max-width: 100%; /* Imagem do header expande para a largura total da tela */
+    height: auto;
+    display: block; /* Remove espaço extra abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  }
+
+  
+  body {
+    font-size: 16px; /* Tamanho da fonte para a faixa de resolução específica */
+  }
+
+  img {
+    max-width: 100%; /* Imagens responsivas */
+    height: auto;
+    margin-bottom: 10px; /* Adiciona espaçamento entre as imagens */
+  }
+
+  .card {
+    width: 48%; /* Dois cards por linha */
+    margin-right: 2%; /* Espaçamento entre os cards */
+    margin-bottom: 15px; /* Espaçamento entre os cards */
+    /* Adicione mais ajustes de estilo conforme necessário para os cards nesta faixa de resolução */
+  }
+
+
+  .card-image-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+      /* Adicione mais ajustes de estilo conforme necessário para dispositivos menores */
+    }
+  
+    img {
+      max-width: 100%; /* Imagens responsivas */
+      height: auto;
+      margin-bottom: 10px; /* Espaçamento inferior entre as imagens */
+    }
+  
+    .card {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    .card-image-wrapper {
+      width: 100%; /* Tornar o card image wrapper responsivo */
+    }
+  }
+}
+  /* Estilos para dispositivos de tela com largura entre 601 e 900 pixels (por exemplo, smartphones em modo paisagem e tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+      font-size: 16px;
+      /* Adicione mais ajustes de estilo conforme necessário para tablets e smartphones em modo paisagem */
+    }
+  
+    img {
+      max-width: 100%; /* Imagens responsivas */
+      height: auto;
+      margin-bottom: 10px; /* Espaçamento inferior entre as imagens */
+    }
+  
+    .card {
+      width: 48%;
+      margin-right: 2%;
+      margin-bottom: 15px;
+    }
+  
+    .card-image-wrapper {
+      width: 100%; /* Tornar o card image wrapper responsivo */
+    }
+  }
+  
+  /* Estilos para dispositivos de tela com largura entre 901 e 1200 pixels (por exemplo, tablets em modo paisagem e laptops) */
+  @media only screen and (min-width: 901px) and (max-width: 1200px) {
+    body {
+      font-size: 18px;
+      /* Adicione mais ajustes de estilo conforme necessário para tablets e laptops */
+    }
+  
+    img {
+      max-width: 100%; /* Imagens responsivas */
+      height: auto;
+      margin-bottom: 15px; /* Espaçamento inferior entre as imagens */
+    }
+  
+    .card {
+      width: 30%;
+      margin-right: 2%;
+      margin-bottom: 15px;
+    }
+  
+    .card-image-wrapper {
+      width: 100%; /* Tornar o card image wrapper responsivo */
+    }
+  }
+  
+  /* Estilos para dispositivos de tela com largura acima de 1200 pixels (por exemplo, computadores desktop e notebooks) */
+  @media only screen and (min-width: 1201px) {
+    body {
+      font-size: 20px;
+      /* Adicione mais ajustes de estilo conforme necessário para computadores desktop e notebooks */
+    }
+  
+    img {
+      max-width: 100%; /* Imagens responsivas */
+      height: auto;
+      margin-bottom: 15px; /* Espaçamento inferior entre as imagens */
+    }
+  
+    .card {
+      width: 100%;
+      margin-right: 2%;
+      margin-bottom: 15px;
+    }
+  
+    .card-image-wrapper {
+      width: 100%; /* Tornar o card image wrapper responsivo */
+    }
+  }
+
 
   :root{
     --primary-color: #4628FF;
