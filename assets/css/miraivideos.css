@@ -62,19 +62,22 @@
     img {
       max-width: 100%; /* Imagens responsivas */
       height: auto;
-      margin-bottom: 10px; /* Espaçamento inferior entre as imagens */
+      margin-bottom: 10px; /* Adiciona espaçamento entre as imagens */
     }
   
     .card {
-      width: 100%;
-      margin-bottom: 15px;
+      width: 100%; /* Cards ocupam a largura total */
+      margin-bottom: 15px; /* Espaçamento entre os cards */
+      box-sizing: border-box; /* Evita que a largura 100% inclua as margens e cause quebras de linha */
+      /* Adicione mais ajustes de estilo conforme necessário para os cards em smartphones */
     }
   
     .card-image-wrapper {
-      width: 100%; /* Tornar o card image wrapper responsivo */
+      width: 100%; /* Wrapper de imagem do card expande para a largura total da tela */
+      /* Adicione mais ajustes de estilo conforme necessário para o wrapper de imagem do card em smartphones */
     }
   }
-}
+  
   /* Estilos para dispositivos de tela com largura entre 601 e 900 pixels (por exemplo, smartphones em modo paisagem e tablets) */
   @media only screen and (min-width: 601px) and (max-width: 900px) {
     body {
@@ -85,17 +88,19 @@
     img {
       max-width: 100%; /* Imagens responsivas */
       height: auto;
-      margin-bottom: 10px; /* Espaçamento inferior entre as imagens */
+      margin-bottom: 10px; /* Adiciona espaçamento entre as imagens */
     }
   
     .card {
-      width: 100%;
-      margin-right: 2%;
-      margin-bottom: 15px;
+      width: 48%; /* Dois cards por linha */
+      margin-right: 2%; /* Espaçamento entre os cards */
+      margin-bottom: 15px; /* Espaçamento entre os cards */
+      /* Adicione mais ajustes de estilo conforme necessário para os cards em tablets e smartphones em modo paisagem */
     }
   
     .card-image-wrapper {
-      width: 100%; /* Tornar o card image wrapper responsivo */
+      width: 100%; /* Wrapper de imagem do card expande para a largura total da tela */
+      /* Adicione mais ajustes de estilo conforme necessário para o wrapper de imagem do card em tablets e smartphones em modo paisagem */
     }
   }
   
@@ -108,17 +113,20 @@
   
     img {
       max-width: 100%; /* Imagens responsivas */
-      margin-bottom: 15px; /* Espaçamento inferior entre as imagens */
+      height: auto;
+      margin-bottom: 15px; /* Adiciona espaçamento entre as imagens */
     }
   
     .card {
-      width: 100%;
-      margin-right: 2%;
-      margin-bottom: 15px;
+      width: 30%; /* Três cards por linha */
+      margin-right: 2%; /* Espaçamento entre os cards */
+      margin-bottom: 15px; /* Espaçamento entre os cards */
+      /* Adicione mais ajustes de estilo conforme necessário para os cards em tablets e laptops */
     }
   
     .card-image-wrapper {
-      width: 100%; /* Tornar o card image wrapper responsivo */
+      width: 100%; /* Wrapper de imagem do card expande para a largura total da tela */
+      /* Adicione mais ajustes de estilo conforme necessário para o wrapper de imagem do card em tablets e laptops */
     }
   }
   
@@ -132,20 +140,22 @@
     img {
       max-width: 100%; /* Imagens responsivas */
       height: auto;
-      margin-bottom: 15px; /* Espaçamento inferior entre as imagens */
+      margin-bottom: 15px; /* Adiciona espaçamento entre as imagens */
     }
   
     .card {
-      width: 100%;
-      margin-right: 2%;
-      margin-bottom: 15px;
+      width: 23%; /* Quatro cards por linha */
+      margin-right: 2%; /* Espaçamento entre os cards */
+      margin-bottom: 15px; /* Espaçamento entre os cards */
+      /* Adicione mais ajustes de estilo conforme necessário para os cards em computadores desktop e notebooks */
     }
   
     .card-image-wrapper {
-      width: 100%; /* Tornar o card image wrapper responsivo */
+      width: 100%; /* Wrapper de imagem do card expande para a largura total da tela */
+      /* Adicione mais ajustes de estilo conforme necessário para o wrapper de imagem do card em computadores desktop e notebooks */
     }
   }
-
+}
 
   :root{
     --primary-color: #4628FF;
