@@ -20,6 +20,15 @@
     font-size: 16px; /* Tamanho da fonte para a faixa de resolução específica */
   }
 
+  #cards-jogos{
+    display: table-row;
+    align-self: start;
+    height: 80vh;
+    padding-top: 5rem;
+    background-image: url('../img/background_resized.png');
+
+}
+
   img {
     max-width: 100%; /* Imagens responsivas */
     height: auto;
@@ -66,6 +75,15 @@
       /* Adicione mais ajustes de estilo conforme necessário para dispositivos menores */
     }
   
+    #cards-jogos{
+      display: table-row;
+      align-self: start;
+      height: 80vh;
+      padding-top: 5rem;
+      background-image: url('../img/background_resized.png');
+  
+  }
+
     img {
       max-width: 100%; /* Imagens responsivas */
       height: auto;
@@ -75,7 +93,10 @@
     .card {
       width: 100%; /* Cards ocupam a largura total */
       margin-bottom: 15px; /* Espaçamento entre os cards */
-      box-sizing: border-box; /* Evita que a largura 100% inclua as margens e cause quebras de linha */
+      box-sizing: border-box;
+      max-width: 100%; /* Garante que o card não ultrapasse a largura da tela */
+      box-sizing: border-box; /* Evita que as bordas do card causem uma quebra de linha */
+   } /* Evita que a largura 100% inclua as margens e cause quebras de linha */
       /* Adicione mais ajustes de estilo conforme necessário para os cards em smartphones */
     }
   
@@ -96,7 +117,7 @@
       display: block; /* Remove espaço extra abaixo da imagem */
       margin: 0 auto; /* Centraliza a imagem horizontalmente */
     }
-  }
+  
   
   /* Estilos para dispositivos de tela com largura entre 601 e 900 pixels (por exemplo, smartphones em modo paisagem e tablets) */
   @media only screen and (min-width: 601px) and (max-width: 900px) {
@@ -104,6 +125,15 @@
       font-size: 16px;
       /* Adicione mais ajustes de estilo conforme necessário para tablets e smartphones em modo paisagem */
     }
+
+    #cards-jogos{
+      display: table-row;
+      align-self: start;
+      height: 80vh;
+      padding-top: 5rem;
+      background-image: url('../img/background_resized.png');
+  
+  }
   
     img {
       max-width: 100%; /* Imagens responsivas */
@@ -143,6 +173,15 @@
       font-size: 18px;
       /* Adicione mais ajustes de estilo conforme necessário para tablets e laptops */
     }
+
+    #cards-jogos{
+      display: table-row;
+      align-self: start;
+      height: 80vh;
+      padding-top: 5rem;
+      background-image: url('../img/background_resized.png');
+  
+  }
   
     img {
       max-width: 100%; /* Imagens responsivas */
@@ -218,12 +257,11 @@
     background-image: url("../img/collab\ animes2.png");
     opacity: 0.5;
     
-
     background-size: cover;
     height: 100%;
     width: 100%;
-    display: block;
-    position: absolute;
+    display: table-row-group;
+    position: fixed;
     z-index: -1;
     left: 0;
     top: 0;
@@ -246,28 +284,9 @@
   transition: transform 1s;
 }
 
-#menu a{
-color: aliceblue;
-text-decoration: none;
-font-size: 1.5rem;
-
-}
 #menu.open{
   transform: translateX(0%);
 
-}
-
-#menu li{
-  padding: 1rem;
-  border-radius: .5rem;
-  transition: background-color .5s;
-  list-style: none;
-}
-
-#menu li:hover{
-  padding-block: 0rem;
-  background-color: #000000c9;
-  
 }
 
 .icon {
@@ -286,7 +305,7 @@ font-size: 1.5rem;
 }
 
   header{
-
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -345,6 +364,8 @@ header span{
       }
 
       #cards-jogos{
+        
+        align-self: start;
         height: 80vh;
         padding-top: 5rem;
         background-image: url('../img/background_resized.png');
@@ -361,6 +382,7 @@ header span{
     }
     
     .card{
+        
         max-width: 17.5rem;
         height: 23.75rem;
         position: relative;

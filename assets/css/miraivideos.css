@@ -17,6 +17,25 @@
     color: #fff; /* Cor do texto no header */
   }
 
+  #cards-jogos{
+    display: table-row;
+    align-self: start;
+
+}
+
+#cards-jogos2{
+  display: table-row;
+  align-self: start;
+
+}
+#curiosidades{
+  height: 235vh;
+  padding-top: 5rem;
+  background-image: url('../img/background__.png');
+  position: relative;
+
+}
+
   header img {
     max-width: 100%; /* Imagem do header expande para a largura total da tela */
     height: auto;
@@ -58,6 +77,25 @@
       /* Adicione mais ajustes de estilo conforme necessário para dispositivos menores */
     }
   
+    #cards-jogos{
+      display: table-row;
+      align-self: start;
+  
+  }
+  
+  #cards-jogos2{
+    display: table-row;
+    align-self: start;
+  
+  }
+  #curiosidades{
+    height: 235vh;
+    padding-top: 5rem;
+    display: table-row;
+    
+    position: relative;
+
+}
     img {
       max-width: 100%; /* Imagens responsivas */
       height: auto;
@@ -84,6 +122,23 @@
       /* Adicione mais ajustes de estilo conforme necessário para tablets e smartphones em modo paisagem */
     }
   
+    #cards-jogos{
+      display: table-row;
+      align-self: start;
+  }
+  
+  #cards-jogos2{
+    display: table-row;
+    align-self: start;
+  }
+  #curiosidades{
+    height: 235vh;
+    padding-top: 5rem;
+    display: table-row;
+    align-self: start;
+    
+
+}
     img {
       max-width: 100%; /* Imagens responsivas */
       height: auto;
@@ -110,6 +165,23 @@
       /* Adicione mais ajustes de estilo conforme necessário para tablets e laptops */
     }
   
+    #cards-jogos{
+      display: table-row;
+      align-self: start;
+  }
+  
+  #cards-jogos2{
+    display: table-row;
+    align-self: start;
+  }
+  #curiosidades{
+    height: 235vh;
+    padding-top: 5rem;
+    display: table-row;
+    align-self: start;
+
+}
+
     img {
       max-width: 100%; /* Imagens responsivas */
       height: auto;
@@ -135,6 +207,21 @@
       font-size: 20px;
       /* Adicione mais ajustes de estilo conforme necessário para computadores desktop e notebooks */
     }
+
+    #cards-jogos{
+      display: table-row;
+      align-self: start;
+  }
+  
+  #cards-jogos2{
+    display: table-row;
+    align-self: start; 
+  }
+  #curiosidades{
+    display: table-row;
+    align-self: start;
+
+  }
   
     img {
       max-width: 100%; /* Imagens responsivas */
