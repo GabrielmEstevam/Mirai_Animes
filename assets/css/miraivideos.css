@@ -313,7 +313,8 @@ h1{
       #cards-jogos{
         height: 90vh;
         padding-top: 5rem;
-        background-image: url('../img/background__resized.png');
+        background-image: url('../img/background__.png');
+        opacity: 0.95;
         position: relative;
     
     }
@@ -406,7 +407,7 @@ h1{
   #curiosidades{
     height: 235vh;
     padding-top: 5rem;
-    background-image: url('../img/background__.png');
+    background-image: url('../img/background_.png');
     position: relative;
 
 }
