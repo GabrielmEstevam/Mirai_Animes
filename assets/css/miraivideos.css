@@ -10,43 +10,31 @@
 
 /* Estilos para resolução entre 300px e 800px */
 @media only screen and (min-width: 300px) and (max-width: 800px) {
+  body {
+    font-size: 16px; /* Tamanho da fonte para a faixa de resolução específica */
+  }
 
-  header {
-    text-align: start; /* Alinha o texto no início da página */
-    padding: 10px; /* Adiciona espaçamento interno ao header */
-    color: #fff; /* Cor do texto no header */
+  nav {
+    width: 79.625rem; /*largura da tela */
+    height: 3.25rem; /* Altura desejada em pixels */
+    background-color: #333; /* Cor de fundo opcional */
   }
 
   #cards-jogos{
     display: table-row;
     align-self: start;
+    height: 80vh;
+    padding-top: 5rem;
 
 }
 
 #cards-jogos2{
   display: table-row;
   align-self: start;
-
-}
-#curiosidades{
-  height: 235vh;
+  height: 80vh;
   padding-top: 5rem;
-  background-image: url('../img/background__.png');
-  position: relative;
 
 }
-
-  header img {
-    max-width: 100%; /* Imagem do header expande para a largura total da tela */
-    height: auto;
-    display: block; /* Remove espaço extra abaixo da imagem */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
-  }
-
-  
-  body {
-    font-size: 16px; /* Tamanho da fonte para a faixa de resolução específica */
-  }
 
   img {
     max-width: 100%; /* Imagens responsivas */
@@ -55,47 +43,50 @@
   }
 
   .card {
-    width: 48%; /* Dois cards por linha */
-    margin-right: 2%; /* Espaçamento entre os cards */
-    margin-bottom: 15px; /* Espaçamento entre os cards */
+ 
+    width: 100; /* Cards ocupam a largura total */
+    margin-right: 10%; 
+    margin-bottom: 15px; 
+    box-sizing: border-box; /* Evita que a largura 100% inclua as margens e cause quebras de linha */
     /* Adicione mais ajustes de estilo conforme necessário para os cards nesta faixa de resolução */
   }
 
-
   .card-image-wrapper {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    justify-content: space-between;
+    }
+
+    .card-image-wrapper {
+      width: 100%; /* Tornar o card image wrapper responsivo */
+    }
   }
-
-
+  
   @media only screen and (max-width: 600px) {
     body {
       font-size: 14px;
       /* Adicione mais ajustes de estilo conforme necessário para dispositivos menores */
     }
   
+    nav {
+      width: 79.625rem; /*largura da tela */
+      height: 3.25rem; /* Altura desejada em pixels */
+      background-color: #333; /* Cor de fundo opcional */
+    }
+
     #cards-jogos{
       display: table-row;
       align-self: start;
-  
+      height: 80vh;
+      padding-top: 5rem;
   }
-  
+
   #cards-jogos2{
     display: table-row;
     align-self: start;
-  
-  }
-  #curiosidades{
-    height: 235vh;
+    height: 80vh;
     padding-top: 5rem;
-    display: table-row;
-    
-    position: relative;
 
 }
+
     img {
       max-width: 100%; /* Imagens responsivas */
       height: auto;
@@ -103,42 +94,51 @@
     }
   
     .card {
-      width: 100%; /* Cards ocupam a largura total */
+      width: 100; /* Cards ocupam a largura total */
       margin-bottom: 15px; /* Espaçamento entre os cards */
-      box-sizing: border-box; /* Evita que a largura 100% inclua as margens e cause quebras de linha */
+      box-sizing: border-box;
+      max-width: 100%; /* Garante que o card não ultrapasse a largura da tela */
+      margin-right: 10%; /* Espaçamento entre os cards */
+      margin-bottom: 15px;
+   } /* Evita que a largura 100% inclua as margens e cause quebras de linha */
       /* Adicione mais ajustes de estilo conforme necessário para os cards em smartphones */
     }
   
     .card-image-wrapper {
-      width: 40%; /* Wrapper de imagem do card expande para a largura total da tela */
-      /* Adicione mais ajustes de estilo conforme necessário para o wrapper de imagem do card em smartphones */
+      width: 100%; /* Wrapper de imagem do card expande para a largura total da tela */
+      /* Ajuste estilos conforme necessário para o wrapper de imagem do card em smartphones */
     }
-  }
   
+
   /* Estilos para dispositivos de tela com largura entre 601 e 900 pixels (por exemplo, smartphones em modo paisagem e tablets) */
   @media only screen and (min-width: 601px) and (max-width: 900px) {
     body {
       font-size: 16px;
       /* Adicione mais ajustes de estilo conforme necessário para tablets e smartphones em modo paisagem */
     }
-  
+    
+    nav {
+      width: 79.625rem; /*largura da tela */
+      height: 3.25rem; /* Altura desejada em pixels */
+      background-color: #333; /* Cor de fundo opcional */
+    }
+
     #cards-jogos{
       display: table-row;
       align-self: start;
+      height: 80vh;
+      padding-top: 5rem;
+      
   }
   
   #cards-jogos2{
     display: table-row;
     align-self: start;
-  }
-  #curiosidades{
-    height: 235vh;
+    height: 80vh;
     padding-top: 5rem;
-    display: table-row;
-    align-self: start;
-    
 
 }
+
     img {
       max-width: 100%; /* Imagens responsivas */
       height: auto;
@@ -146,16 +146,17 @@
     }
   
     .card {
-      width: 48%; /* Dois cards por linha */
-      margin-right: 2%; /* Espaçamento entre os cards */
+      width: 100; /* Dois cards por linha */
+      margin-right: 10%; /* Espaçamento entre os cards */
       margin-bottom: 15px; /* Espaçamento entre os cards */
       /* Adicione mais ajustes de estilo conforme necessário para os cards em tablets e smartphones em modo paisagem */
     }
   
     .card-image-wrapper {
       width: 100%; /* Wrapper de imagem do card expande para a largura total da tela */
-      /* Adicione mais ajustes de estilo conforme necessário para o wrapper de imagem do card em tablets e smartphones em modo paisagem */
+      /* Ajuste estilos conforme necessário para o wrapper de imagem do card em tablets e smartphones em modo paisagem */
     }
+
   }
   
   /* Estilos para dispositivos de tela com largura entre 901 e 1200 pixels (por exemplo, tablets em modo paisagem e laptops) */
@@ -164,21 +165,26 @@
       font-size: 18px;
       /* Adicione mais ajustes de estilo conforme necessário para tablets e laptops */
     }
-  
+
+    nav {
+      width: 79.625rem; /*largura da tela */
+      height: 3.25rem; /* Altura desejada em pixels */
+      background-color: #333; /* Cor de fundo opcional */
+    }
+
     #cards-jogos{
       display: table-row;
       align-self: start;
+      height: 90vh;
+      padding-top: 5rem;
+     
   }
   
   #cards-jogos2{
     display: table-row;
     align-self: start;
-  }
-  #curiosidades{
-    height: 235vh;
+    height: 80vh;
     padding-top: 5rem;
-    display: table-row;
-    align-self: start;
 
 }
 
@@ -189,16 +195,32 @@
     }
   
     .card {
-      width: 30%; /* Três cards por linha */
-      margin-right: 2%; /* Espaçamento entre os cards */
+      width: 100; 
+      margin-right: 10%; /* Espaçamento entre os cards */
       margin-bottom: 15px; /* Espaçamento entre os cards */
       /* Adicione mais ajustes de estilo conforme necessário para os cards em tablets e laptops */
     }
   
     .card-image-wrapper {
       width: 100%; /* Wrapper de imagem do card expande para a largura total da tela */
-      /* Adicione mais ajustes de estilo conforme necessário para o wrapper de imagem do card em tablets e laptops */
+      margin-top: 10%;
+      /* Ajuste estilos conforme necessário para o wrapper de imagem do card em tablets e laptops */
     }
+  
+    .card-content{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      position: relative;
+      top: 10%;
+      left: .5rem;
+      opacity: .1;
+      transform: translateY(2rem);
+      transition: opacity 1s, transform 1s;
+      align-items: flex-start;
+      
+  }
+
   }
   
   /* Estilos para dispositivos de tela com largura acima de 1200 pixels (por exemplo, computadores desktop e notebooks) */
@@ -207,41 +229,21 @@
       font-size: 20px;
       /* Adicione mais ajustes de estilo conforme necessário para computadores desktop e notebooks */
     }
-
-    #cards-jogos{
-      display: table-row;
-      align-self: start;
-  }
-  
-  #cards-jogos2{
-    display: table-row;
-    align-self: start; 
-  }
-  #curiosidades{
-    display: table-row;
-    align-self: start;
-
-  }
   
     img {
       max-width: 100%; /* Imagens responsivas */
-      height: auto;
+      height: 100%;
       margin-bottom: 15px; /* Adiciona espaçamento entre as imagens */
     }
   
     .card {
-      width: 23%; /* Quatro cards por linha */
-      margin-right: 2%; /* Espaçamento entre os cards */
-      margin-bottom: 15px; /* Espaçamento entre os cards */
-      /* Adicione mais ajustes de estilo conforme necessário para os cards em computadores desktop e notebooks */
+      width: 100%; 
+       /* Espaçamento entre os cards */
+      margin-bottom: 15px;     
     }
-  
-    .card-image-wrapper {
-      width: 100%; /* Wrapper de imagem do card expande para a largura total da tela */
-      /* Adicione mais ajustes de estilo conforme necessário para o wrapper de imagem do card em computadores desktop e notebooks */
-    }
+
+
   }
-}
 
   :root{
     --primary-color: #4628FF;
@@ -382,7 +384,7 @@ h1{
     #cards-jogos2{
       height: 80vh;
       padding-top: 5rem;
-      background-image: url('../img/background_resized.png');
+      background-image: url('../img/background.png');
       
   
   }
@@ -403,15 +405,6 @@ h1{
       align-items: top;
       height: 100%;
   }
-
-  #curiosidades{
-    height: 235vh;
-    padding-top: 5rem;
-    background-image: url('../img/background_.png');
-    position: relative;
-
-}
-
 
 .card h3{
     color: white;

@@ -25,7 +25,6 @@
     align-self: start;
     height: 80vh;
     padding-top: 5rem;
-    background-image: url('../img/background_resized.png');
 
 }
 
@@ -48,19 +47,6 @@
     width: 100%;
     }
 
-  header {
-    text-align: start; /* Alinha o texto no início da página */
-    padding: 10px; /* Adiciona espaçamento interno ao header */
-    color: #fff; /* Cor do texto no header */
-  }
-
-  header img {
-    width: 100%; /* Imagem do header expande para a largura total da tela */
-    height: auto;
-    display: block; /* Remove espaço extra abaixo da imagem */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
-  }
-
     .card-image-wrapper {
       width: 100%; /* Tornar o card image wrapper responsivo */
     }
@@ -77,7 +63,7 @@
       align-self: start;
       height: 80vh;
       padding-top: 5rem;
-      background-image: url('../img/background_resized.png');
+     
   
   }
 
@@ -103,20 +89,7 @@
       /* Ajuste estilos conforme necessário para o wrapper de imagem do card em smartphones */
     }
   
-    header {
-      text-align: start; /* Alinha o texto no início da página */
-      padding: 10px; /* Adiciona espaçamento interno ao header */
-      color: #fff; /* Cor do texto no header */
-    }
-  
-    header img {
-      width: 100%; /* Imagem do header expande para a largura total da tela */
-      height: auto;
-      display: block; /* Remove espaço extra abaixo da imagem */
-      margin: 0 auto; /* Centraliza a imagem horizontalmente */
-    }
-  
-  
+
   /* Estilos para dispositivos de tela com largura entre 601 e 900 pixels (por exemplo, smartphones em modo paisagem e tablets) */
   @media only screen and (min-width: 601px) and (max-width: 900px) {
     body {
@@ -129,7 +102,7 @@
       align-self: start;
       height: 80vh;
       padding-top: 5rem;
-      background-image: url('../img/background_resized.png');
+      
   
   }
   
@@ -150,19 +123,7 @@
       width: 100%; /* Wrapper de imagem do card expande para a largura total da tela */
       /* Ajuste estilos conforme necessário para o wrapper de imagem do card em tablets e smartphones em modo paisagem */
     }
-  
-    header {
-      text-align: start; /* Alinha o texto no início da página */
-      padding: 10px; /* Adiciona espaçamento interno ao header */
-      color: #fff; /* Cor do texto no header */
-    }
-  
-    header img {
-      width: 100%; /* Imagem do header expande para a largura total da tela */
-      height: auto;
-      display: block; /* Remove espaço extra abaixo da imagem */
-      margin: 0 auto; /* Centraliza a imagem horizontalmente */
-    }
+
   }
   
   /* Estilos para dispositivos de tela com largura entre 901 e 1200 pixels (por exemplo, tablets em modo paisagem e laptops) */
@@ -177,7 +138,7 @@
       align-self: start;
       height: 90vh;
       padding-top: 5rem;
-      background-image: url('../img/background_resized.png');
+     
   
   }
   
@@ -188,7 +149,7 @@
     }
   
     .card {
-      width: 100%; 
+      width: 100; 
       margin-right: 10%; /* Espaçamento entre os cards */
       margin-bottom: 15px; /* Espaçamento entre os cards */
       /* Adicione mais ajustes de estilo conforme necessário para os cards em tablets e laptops */
@@ -214,18 +175,6 @@
       
   }
 
-    header {
-      text-align: start; /* Alinha o texto no início da página */
-      padding: 10px; /* Adiciona espaçamento interno ao header */
-      color: #fff; /* Cor do texto no header */
-    }
-  
-    header img {
-      width: 100%; /* Imagem do header expande para a largura total da tela */
-      height: auto;
-      display: block; /* Remove espaço extra abaixo da imagem */
-      margin: 0 auto; /* Centraliza a imagem horizontalmente */
-    }
   }
   
   /* Estilos para dispositivos de tela com largura acima de 1200 pixels (por exemplo, computadores desktop e notebooks) */
@@ -247,16 +196,6 @@
       margin-bottom: 15px;     
     }
 
-    header {
-      text-align: start; /* Alinha o texto no início da página */
-      padding: 10px; /* Adiciona espaçamento interno ao header */
-      color: #fff; /* Cor do texto no header */
-    }
-  
-    header img {
-      width: 100%; /* Imagem do header expande para a largura total da tela */
-      height: auto
-    }
 
   }
 
