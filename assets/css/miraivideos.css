@@ -15,8 +15,8 @@
   }
 
   nav {
-    width: 79.625rem; /*largura da tela */
-    height: 3.25rem; /* Altura desejada em pixels */
+    width: 87.5rem; /*largura da tela */
+    height: 3.3rem; /* Altura desejada em pixels */
     background-color: #333; /* Cor de fundo opcional */
   }
 
@@ -44,7 +44,7 @@
 
   .card {
  
-    width: 100; /* Cards ocupam a largura total */
+    width: 96%; /* Cards ocupam a largura total */
     margin-right: 10%; 
     margin-bottom: 15px; 
     box-sizing: border-box; /* Evita que a largura 100% inclua as margens e cause quebras de linha */
@@ -67,8 +67,8 @@
     }
   
     nav {
-      width: 79.625rem; /*largura da tela */
-      height: 3.25rem; /* Altura desejada em pixels */
+      width: 87.5rem; /*largura da tela */
+      height: 5rem; /* Altura desejada em pixels */
       background-color: #333; /* Cor de fundo opcional */
     }
 
@@ -118,8 +118,8 @@
     }
     
     nav {
-      width: 79.625rem; /*largura da tela */
-      height: 3.25rem; /* Altura desejada em pixels */
+      width: 87.5rem; /*largura da tela */
+      height: 5rem; /* Altura desejada em pixels */
       background-color: #333; /* Cor de fundo opcional */
     }
 
