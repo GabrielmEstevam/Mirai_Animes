@@ -20,6 +20,12 @@
     font-size: 16px; /* Tamanho da fonte para a faixa de resolução específica */
   }
 
+  nav {
+    width: 87.5rem; /*largura da tela */
+    height: 3.3rem; /* Altura desejada em pixels */
+    background-color: #333; /* Cor de fundo opcional */
+  }
+
   #cards-jogos{
     display: table-row;
     align-self: start;
@@ -57,6 +63,12 @@
     body {
       font-size: 14px;
       /* Adicione mais ajustes de estilo conforme necessário para dispositivos menores */
+    }
+
+    nav {
+      width: 87.5rem; /*largura da tela */
+      height: 3.3rem; /* Altura desejada em pixels */
+      background-color: #333; /* Cor de fundo opcional */
     }
   
     #cards-jogos{
@@ -98,6 +110,12 @@
       /* Adicione mais ajustes de estilo conforme necessário para tablets e smartphones em modo paisagem */
     }
 
+    nav {
+      width: 87.5rem; /*largura da tela */
+      height: 3.3rem; /* Altura desejada em pixels */
+      background-color: #333; /* Cor de fundo opcional */
+    }
+
     #cards-jogos{
       display: table-row;
       align-self: start;
@@ -132,6 +150,12 @@
     body {
       font-size: 18px;
       /* Adicione mais ajustes de estilo conforme necessário para tablets e laptops */
+    }
+
+    nav {
+      width: 87.5rem; /*largura da tela */
+      height: 3.3rem; /* Altura desejada em pixels */
+      background-color: #333; /* Cor de fundo opcional */
     }
 
     #cards-jogos{
@@ -184,6 +208,7 @@
       font-size: 20px;
       /* Adicione mais ajustes de estilo conforme necessário para computadores desktop e notebooks */
     }
+    
   
     img {
       max-width: 100%; /* Imagens responsivas */
@@ -215,6 +240,21 @@
     left: 0;
     top: 0;
    
+}
+
+header{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 90vh;
+    position: static;
+    padding-bottom: 3.8rem;
+    padding-right: 18rem;
+    overflow: visible;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
   html{
@@ -253,19 +293,6 @@
   cursor: pointer;
 }
 
-  header{
-    
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height: 90vh;
-    position: static;
-    padding-bottom: 3.8rem;
-    overflow: hidden;
-    flex-direction: column;
-    justify-content: center;
-    
-}
 
 h1{
     color: rgb(0, 0, 0);
@@ -315,7 +342,7 @@ header span{
       #cards-jogos{
         
         align-self: start;
-        height: 80vh;
+        height: 95vh;
         padding-top: 5rem;
         background-image: url('../img/background\ cards.png');
     
