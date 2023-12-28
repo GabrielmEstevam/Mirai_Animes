@@ -8,6 +8,8 @@
 
   }
 
+  
+
 /* Estilos para resolução entre 300px e 800px */
 @media only screen and (min-width: 300px) and (max-width: 800px) {
   body {
@@ -17,7 +19,6 @@
   nav {
     width: 87.5rem; /*largura da tela */
     height: 3.3rem; /* Altura desejada em pixels */
-    background-color: #333; /* Cor de fundo opcional */
   }
 
   #cards-jogos{
@@ -69,7 +70,6 @@
     nav {
       width: 87.5rem; /*largura da tela */
       height: 5rem; /* Altura desejada em pixels */
-      background-color: #333; /* Cor de fundo opcional */
     }
 
     #cards-jogos{
@@ -120,7 +120,6 @@
     nav {
       width: 87.5rem; /*largura da tela */
       height: 5rem; /* Altura desejada em pixels */
-      background-color: #333; /* Cor de fundo opcional */
     }
 
     #cards-jogos{
@@ -169,7 +168,6 @@
     nav {
       width: 79.625rem; /*largura da tela */
       height: 3.25rem; /* Altura desejada em pixels */
-      background-color: #333; /* Cor de fundo opcional */
     }
 
     #cards-jogos{

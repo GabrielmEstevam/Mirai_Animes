@@ -8,7 +8,7 @@
   }
 
   :root{
-    --primary-color: #4628FF;
+    --primary-color: #09456c;
     --font-title: 'Montserrat';
     --fontdefault: 'Poppins';
 
@@ -312,10 +312,11 @@ header span{
 
 }
 
+
     .botao {
         display: inline-flex;
         padding: 1.25rem 2.5rem;
-        align-items: center;
+        align-items: start;
         gap: 1.2rem ;
         background-image: url('../img/icon.jpg');
         background-size: cover;
