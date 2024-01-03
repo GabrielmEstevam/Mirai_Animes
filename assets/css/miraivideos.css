@@ -311,7 +311,7 @@ h1{
       }
 
       #cards-jogos{
-        height: 90vh;
+        height: 95vh;
         padding-top: 5rem;
         background-image: url('../img/background__.png');
         opacity: 0.95;
@@ -380,9 +380,9 @@ h1{
     }
 
     #cards-jogos2{
-      height: 80vh;
+      height: 95vh;
       padding-top: 5rem;
-      background-image: url('../img/background.png');
+      background-image: url('../img/background_.png');
       
   
   }
