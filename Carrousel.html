@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  
+  <style>
+
+
+    /* Adiciona estilos específicos para telas menores, como celulares */
+    @media only screen and (max-width: 767px) {
+      
+      .carousel-card {
+        width: 100%; /* Ocupa 100% da largura da tela */
+        height: auto; /* Ajusta a altura automaticamente com base no conteúdo */
+        margin: 0; /* Remove margens laterais para ocupar toda a largura */
+      }
+
+      .carousel-card img {
+        border-radius: 5px 5px 0 0; /* Adiciona bordas arredondadas apenas no topo */
+      }
+
+      .carousel-card-overlay {
+        top: 0; /* Alinha o overlay ao topo do card */
+        right: 0;
+        border-radius: 0 0 5px 5px; /* Adiciona bordas arredondadas apenas na parte inferior */
+      }
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    /* Adiciona uma seção com imagem de fundo */
+    .background-section {
+      background-image: url('./assets/img/background_.png');
+      background-size: cover;
+      height: 100vh; /* Define a altura da seção como 100% da altura da viewport */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff; /* Define a cor do texto dentro da seção */
+    }
+
+    .carousel-card-wrapper {
+      width: 90%; /* Ajuste conforme necessário */
+      margin: 0 auto;
+    }
+
+    .carousel-card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      border: 1px solid #ffffff;
+      margin: 10px;
+      padding: 10px;
+      text-align: left;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .carousel-card img {
+      width: 100%;
+      border-radius: 5px 5px 0 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .carousel-card:hover img {
+      opacity: 0.125;
+    }
+
+    .carousel-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+    .carousel-card:hover .carousel-card-overlay {
+      opacity: 1;
+    }
+
+    .slick-prev,
+    .slick-next {
+      font-size: 24px;
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .slick-prev:hover,
+    .slick-next:hover {
+      background-color: #0056b3;
+    }
+
+    .carousel-navigation {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Seção com imagem de fundo -->
+<div class="background-section">
+
+
+  
+</head>
+<body>
+
+
+<div class="carousel-card-wrapper">
+  <div class="carousel-card">
+    <img height="357" width="250" src="./assets/img/one piece cover.jpg" alt="Image 1">
+    <div class="carousel-card-overlay">
+    <h2>Card 1</h2>
+    <p>Content for card 1Content for card 1Content for card 1Content for card 1Content for card 1Content for card 1</p>
+  </div>
+  </div>
+
+  <div class="carousel-card">
+    <img height="357" width="250" src="./assets/img/cover naruto resized.jpg" alt="Image 2">
+    <div class="carousel-card-overlay">
+    <h2>Card 2</h2>
+    <p>Content for card 2</p>
+  </div>
+  </div>
+
+  <div class="carousel-card">
+    <img height="357" width="250" src="./assets/img/jujutsu cover.png" alt="Image 3">
+    <div class="carousel-card-overlay">
+    <h2>Card 3</h2>
+    <p>Content for card 3</p>
+  </div>
+  </div>
+
+  <div class="carousel-card">
+    <img height="357" width="250" src="./assets/img/Attack_on_Titan_Season_1.png" alt="Image 4">
+    <div class="carousel-card-overlay">
+    <h2>Card 4</h2>
+    <p>Content for card 3</p>
+  </div>
+  </div>
+
+  <div class="carousel-card">
+    <img height="357" width="250" src="./assets/img/demon slayer cover.jpg" alt="Image 5">
+    <div class="carousel-card-overlay">
+    <h2>Card 5</h2>
+    <p>Content for card 3Content for card 3Content for card 3Content for card 3Content for card 3Content for card 3Content for card 3</p>
+  </div>
+  </div>
+
+  <div class="carousel-card">
+    <img height="357" width="250" src="./assets/img/cover dr stone.jpg" alt="Image 6">
+    <div class="carousel-card-overlay">
+    <h2>Card 6</h2>
+    <p>Content for card 3</p>
+  </div>
+  </div>
+
+    <div class="carousel-card">
+      <img height="357" width="250" src="./assets/img/cover HunterxHunter.jpg" alt="Image 7">
+      <div class="carousel-card-overlay">
+      <h2>Card 1</h2>
+      <p>Content for card 1Content for card 1Content for card 1Content for card 1Content for card 1Content for card 1</p>
+    </div>
+    </div>
+  
+    <div class="carousel-card">
+      <img height="357" width="250" src="./assets/img/cover mob psycho 100.jpg" alt="Image 8">
+      <div class="carousel-card-overlay">
+      <h2>Card 2</h2>
+      <p>Content for card 2</p>
+    </div>
+    </div>
+  
+    <div class="carousel-card">
+      <img height="357" width="250" src="./assets/img/cover My hero academy.jpg" alt="Image 9">
+      <div class="carousel-card-overlay">
+      <h2>Card 3</h2>
+      <p>Content for card 3</p>
+    </div>
+    </div>
+  
+    <div class="carousel-card">
+      <img height="357" width="250" src="./assets/img/dragon ball super cover.png" alt="Image 10">
+      <div class="carousel-card-overlay">
+      <h2>Card 4</h2>
+      <p>Content for card 3</p>
+    </div>
+    </div>
+  
+    <div class="carousel-card">
+      <img height="357" width="250" src="./assets/img/The_Promised_Neverland cover.jpg" alt="Image 11">
+      <div class="carousel-card-overlay">
+      <h2>Card 5</h2>
+      <p>Content for card 3Content for card 3Content for card 3Content for card 3Content for card 3Content for card 3Content for card 3</p>
+    </div>
+    </div>
+  
+    <div class="carousel-card">
+      <img height="357" width="250" src="./assets/img/SAOcover.jpg" alt="Image 12">
+      <div class="carousel-card-overlay">
+      <h2>Card 6</h2>
+      <p>Content for card 3</p>
+    </div>
+    </div>
+
+  <!-- Add more cards as needed -->
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.carousel-card-wrapper').slick({
+      infinite: true,
+      slidesToShow: 1, // Define o número de slides a serem mostrados em telas menores
+      slidesToScroll: 1,
+      prevArrow: '<div class="slick-prev"&#9665; </div>',
+      nextArrow: '<div class="slick-next" &#9655;</div>',
+      responsive: [
+        {
+          breakpoint: 768, // Máximo de pixels para telas menores
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 9999, // Mínimo de pixels para telas maiores
+          settings: {
+            slidesToShow: 6, // Define o número de slides a serem mostrados em telas maiores
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+  });
+</script>
+
+
+</body>
+</html>
