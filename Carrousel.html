@@ -7,13 +7,30 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
   
   <style>
+  
+  @media only screen and (max-width: 600px) {
 
+    .carousel-card {
+        width: 100%; /* Ocupa 100% da largura da tela */
+        height: auto; /* Ajusta a altura automaticamente com base no conteúdo */
+        margin: 0; /* Remove margens laterais para ocupar toda a largura */
+      }
+
+
+    img {
+      max-width: 100%; /* Imagens responsivas */
+      height: auto;
+      margin-bottom: 10px; /* Adiciona espaçamento entre as imagens */
+    }
+
+  }
 
     /* Adiciona estilos específicos para telas menores, como celulares */
     @media only screen and (max-width: 767px) {
-      
+
+
       .carousel-card {
-        width: 100%; /* Ocupa 100% da largura da tela */
+        width: 50%; /* Ocupa 100% da largura da tela */
         height: auto; /* Ajusta a altura automaticamente com base no conteúdo */
         margin: 0; /* Remove margens laterais para ocupar toda a largura */
       }
@@ -37,7 +54,7 @@
 
     /* Adiciona uma seção com imagem de fundo */
     .background-section {
-      background-image: url('./assets/img/background_.png');
+      background-image: url('./assets/img/gold.jpg');
       background-size: cover;
       height: 100vh; /* Define a altura da seção como 100% da altura da viewport */
       display: flex;
@@ -59,7 +76,7 @@
       justify-content: center;
       width: 100%;
       height: auto;
-      border: 1px solid #ffffff;
+      border: 2px solid #000000;
       margin: 10px;
       padding: 10px;
       text-align: left;
@@ -79,6 +96,7 @@
 
     .carousel-card-overlay {
   position: absolute;
+  padding: 5px;
   top: 0;
   left: 0;
   width: 100%;
@@ -247,7 +265,7 @@
         {
           breakpoint: 768, // Máximo de pixels para telas menores
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1
           }
         },
