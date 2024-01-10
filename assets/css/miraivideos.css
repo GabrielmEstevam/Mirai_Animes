@@ -17,8 +17,8 @@
   }
 
   nav {
-    width: 87.5rem; /*largura da tela */
-    height: 3.3rem; /* Altura desejada em pixels */
+    width: 150rem; /*largura da tela */
+    height: 5rem; /* Altura desejada em pixels */
   }
 
   #cards-jogos{
@@ -40,14 +40,14 @@
   img {
     max-width: 100%; /* Imagens responsivas */
     height: auto;
-    margin-bottom: 10px; /* Adiciona espaçamento entre as imagens */
+    margin-bottom: .625rem; /* Adiciona espaçamento entre as imagens */
   }
 
   .card {
  
     width: 96%; /* Cards ocupam a largura total */
     margin-right: 10%; 
-    margin-bottom: 15px; 
+    margin-bottom: .9rem; 
     box-sizing: border-box; /* Evita que a largura 100% inclua as margens e cause quebras de linha */
     /* Adicione mais ajustes de estilo conforme necessário para os cards nesta faixa de resolução */
   }
@@ -63,12 +63,12 @@
   
   @media only screen and (max-width: 600px) {
     body {
-      font-size: 14px;
+      font-size: .875rem;
       /* Adicione mais ajustes de estilo conforme necessário para dispositivos menores */
     }
   
     nav {
-      width: 87.5rem; /*largura da tela */
+      width: 150rem; /*largura da tela */
       height: 5rem; /* Altura desejada em pixels */
     }
 
@@ -90,16 +90,16 @@
     img {
       max-width: 100%; /* Imagens responsivas */
       height: auto;
-      margin-bottom: 10px; /* Adiciona espaçamento entre as imagens */
+      margin-bottom: .625rem; /* Adiciona espaçamento entre as imagens */
     }
   
     .card {
       width: 100; /* Cards ocupam a largura total */
-      margin-bottom: 15px; /* Espaçamento entre os cards */
+      margin-bottom: 0.9rem; /* Espaçamento entre os cards */
       box-sizing: border-box;
       max-width: 100%; /* Garante que o card não ultrapasse a largura da tela */
       margin-right: 10%; /* Espaçamento entre os cards */
-      margin-bottom: 15px;
+      margin-bottom: 0.9rem;
    } /* Evita que a largura 100% inclua as margens e cause quebras de linha */
       /* Adicione mais ajustes de estilo conforme necessário para os cards em smartphones */
     }
@@ -113,15 +113,15 @@
   /* Estilos para dispositivos de tela com largura entre 601 e 900 pixels (por exemplo, smartphones em modo paisagem e tablets) */
   @media only screen and (min-width: 601px) and (max-width: 900px) {
     body {
-      font-size: 16px;
+      font-size: 1rem;
       /* Adicione mais ajustes de estilo conforme necessário para tablets e smartphones em modo paisagem */
     }
     
     nav {
-      width: 87.5rem; /*largura da tela */
+      width: 150rem; /*largura da tela */
       height: 5rem; /* Altura desejada em pixels */
     }
-
+    
     #cards-jogos{
       display: table-row;
       align-self: start;
@@ -147,7 +147,7 @@
     .card {
       width: 100; /* Dois cards por linha */
       margin-right: 10%; /* Espaçamento entre os cards */
-      margin-bottom: 15px; /* Espaçamento entre os cards */
+      margin-bottom: 0.9rem; /* Espaçamento entre os cards */
       /* Adicione mais ajustes de estilo conforme necessário para os cards em tablets e smartphones em modo paisagem */
     }
   
@@ -161,13 +161,13 @@
   /* Estilos para dispositivos de tela com largura entre 901 e 1200 pixels (por exemplo, tablets em modo paisagem e laptops) */
   @media only screen and (min-width: 901px) and (max-width: 1200px) {
     body {
-      font-size: 18px;
+      font-size: 1.125rem;
       /* Adicione mais ajustes de estilo conforme necessário para tablets e laptops */
     }
 
     nav {
-      width: 79.625rem; /*largura da tela */
-      height: 3.25rem; /* Altura desejada em pixels */
+      width: 150rem; /*largura da tela */
+      height: 5rem; /* Altura desejada em pixels */
     }
 
     #cards-jogos{
@@ -189,13 +189,13 @@
     img {
       max-width: 100%; /* Imagens responsivas */
       height: auto;
-      margin-bottom: 15px; /* Adiciona espaçamento entre as imagens */
+      margin-bottom: .9rem; /* Adiciona espaçamento entre as imagens */
     }
   
     .card {
       width: 100; 
       margin-right: 10%; /* Espaçamento entre os cards */
-      margin-bottom: 15px; /* Espaçamento entre os cards */
+      margin-bottom: .9rem; /* Espaçamento entre os cards */
       /* Adicione mais ajustes de estilo conforme necessário para os cards em tablets e laptops */
     }
   
@@ -227,17 +227,22 @@
       font-size: 20px;
       /* Adicione mais ajustes de estilo conforme necessário para computadores desktop e notebooks */
     }
+
+    nav {
+      width: 189.7rem; /*largura da tela */
+      height: 5rem; /* Altura desejada em pixels */
+    }
   
     img {
       max-width: 100%; /* Imagens responsivas */
       height: 100%;
-      margin-bottom: 15px; /* Adiciona espaçamento entre as imagens */
+      margin-bottom: .9rem; /* Adiciona espaçamento entre as imagens */
     }
   
     .card {
       width: 100%; 
        /* Espaçamento entre os cards */
-      margin-bottom: 15px;     
+      margin-bottom: .9rem;     
     }
 
 
@@ -256,9 +261,11 @@
 
 }
 
+
+
 .icon {
-  width: 22px;
-  height: 22px;
+  width: 1.4rem;
+  height: 1.4rem;
 }
 
 #menu-icon{
@@ -311,7 +318,8 @@ h1{
       }
 
       #cards-jogos{
-        height: 95vh;
+        height: 100vh;
+        width: 150%;
         padding-top: 5rem;
         background-image: url('../img/background__.png');
         opacity: 0.95;
@@ -329,8 +337,8 @@ h1{
     }
     
     .card{
-        max-width: 17.5rem;
-        height: 23.75rem;
+        max-width: 30rem;
+        height: 23.8rem;
         position: relative;
         cursor: pointer;
     }
@@ -380,7 +388,8 @@ h1{
     }
 
     #cards-jogos2{
-      height: 95vh;
+      height: 90vh;
+      width: 150%;
       padding-top: 5rem;
       background-image: url('../img/background_.png');
       
