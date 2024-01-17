@@ -339,6 +339,7 @@ h1{
     .card{
         max-width: 30rem;
         height: 23.8rem;
+
         position: relative;
         cursor: pointer;
     }
@@ -387,25 +388,23 @@ h1{
         align-content: flex-start;
     }
 
+    
+
     #cards-jogos2{
-      height: 90vh;
+      height: 130vh;
       width: 150%;
       padding-top: 5rem;
-      background-image: url('../img/background_.png');
+      background-image: url('../img/medieval.png');
+      opacity: 0.8;
       
-  
   }
   
   #cards-jogos2 img{
     display: flex;
-    flex-direction: row;
     gap: 1rem;
-    justify-content: space-between;
     max-width: 31.25rem;
-
   }
 
-  
   #cards-jogos2 ul{
       display: flex;
       justify-content: space-around;
@@ -418,3 +417,94 @@ h1{
     font-size: .9rem;
     align-content: flex-start;
 }
+
+/* Parte dos mangas */
+
+ #curiosidades .card {
+  margin-right: 30px;
+  overflow: hidden;
+  transition: height 0.3s;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  width: 150%;
+  overflow-x: auto;
+  margin: auto;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-expanded {
+  height: 1100px; /* Adjust the height for the expanded card */
+}
+
+.description {
+  display: none;
+}
+
+.card-header {
+  position: relative;
+  height: 60px; /* Altura desejada para o cabeçalho estilizado */
+  overflow: hidden;
+}
+
+/* Estilo do Cabeçalho dos Cards */
+
+.card-header .header-text {
+  font-size: 20px; 
+  padding: 10px; /* Espaçamento interno para o texto no cabeçalho */ 
+  text-align: center;
+  height: 4rem;
+  font-weight: bold;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(80,37,21,1) 13%,
+   rgba(252,115,64,1) 40%, rgba(252,115,64,1) 75%,
+    rgba(255,218,0,1) 100%, rgba(252,176,69,1) 100%);
+}
+
+ .card-header2 .header-text2{
+  font-size: 20px; 
+  padding: 10px; /* Espaçamento interno para o texto no cabeçalho */ 
+  text-align: center;
+  height: 4rem;
+  font-weight: bold;
+  background: rgb(255,215,0);
+  background: linear-gradient(90deg, rgba(255,215,0,1) 25%, rgba(201,0,0,1) 55%, rgba(14,0,124,0.8379726890756303) 93%);
+ }
+
+.card-header3 .header-text3{
+  font-size: 20px; 
+  padding: 10px; /* Espaçamento interno para o texto no cabeçalho */ 
+  text-align: center;
+  height: 4rem;
+  background: -webkit-linear-gradient(to right, #e74c3c, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card-header4 .header-text4{
+  font-size: 20px; 
+  padding: 10px; /* Espaçamento interno para o texto no cabeçalho */ 
+  text-align: center;
+  height: 4rem;
+  background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.card-header5 .header-text5{
+  font-size: 20px; 
+  padding: 10px; /* Espaçamento interno para o texto no cabeçalho */ 
+  text-align: center;
+  height: 4rem;
+  background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+

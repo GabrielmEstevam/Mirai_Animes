@@ -54,8 +54,8 @@
                         
                         <div class="card-image-wrapper">
                         
-                            <iframe width="457" height="380" src="https://www.youtube.com/embed/LHTYpWI3S6Q?si=HDquQXWmYPDHGcAY"
-                             title="One Piece Trailer 1 (1999)" frameborder="1" 
+                            <iframe width="470" height="358" src="https://www.youtube.com/embed/qi2rByJed-E?si=4RdHfj3WhT6T6l7l"
+                             title="" frameborder="1" 
                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                              loading="lazy" 
                              allowfullscreen></iframe>                          
@@ -77,9 +77,8 @@
                     <div class="card">
                         <div class="card-image-wrapper">
                             
-                            <iframe width="470" height="358" 
-                            src="https://www.youtube.com/embed/qi2rByJed-E?si=4RdHfj3WhT6T6l7l"
-                            title="YouTube video player" frameborder="1" 
+                            <iframe width="450" height="358"src="https://www.youtube.com/embed/LHTYpWI3S6Q?si=HDquQXWmYPDHGcAY"
+                            title="One Piece Trailer 1 (1999)" frameborder="1" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             loading="lazy" 
                             allowfullscreen></iframe>                
@@ -251,12 +250,68 @@
 
         <section id="curiosidades">
 
-
-      
+            <div class="card-container" id="curiosidades">
+                <div class="card" onclick="toggleCard(this)">
+                    <div class="card-header">
+                        <p class="header-text">Naruto Shippuden</p>
+                    </div>
+                    <img src="./assets/img/Mangá/Naruto Mangá.jpg" alt="Imagem 1">
+                  <div class="description">
+                    <p>Descrição do conteúdo da imagem 1.</p>
+                  </div>
+                </div>
             
-        </section>
-       
+                <div class="card" onclick="toggleCard(this)">
+                    <div class="card-header2" >
+                        <p class="header-text2">Naruto Shippuden</p>
+                    </div>
+                  <img src="./assets/img/Mangá/One Piece mangá.png" alt="Imagem 2">
+                  <div class="description">
+                    <p>Descrição do conteúdo da imagem 2.</p>
+                  </div>
+                </div>
+            
+                <div class="card" onclick="toggleCard(this)">
+                    <div class="card-header3">
+                        <p class="header-text3">Naruto Shippuden</p>
+                    </div>
+                  <img src="./assets/img/gold.jpg" alt="Imagem 3">
+                  <div class="description">
+                    <p>Descrição do conteúdo da imagem 3.</p>
+                  </div>
+                </div>
+            
+                <div class="card" onclick="toggleCard(this)">
+                    <div class="card-header4">
+                        <p class="header-text4">Naruto Shippuden</p>
+                    </div>
+                  <img src="./assets/img/gold.jpg" alt="Imagem 4">
+                  <div class="description">
+                    <p>Descrição do conteúdo da imagem 4.</p>
+                  </div>
+                </div>
 
+                <div class="card" onclick="toggleCard(this)">
+                    <div class="card-header5">
+                        <p class="header-text5">Naruto Shippuden</p>
+                    </div>
+                  <img src="./assets/img/gold.jpg" alt="Imagem 5">
+                  <div class="description">
+                    <p>Descrição do conteúdo da imagem 5.</p>
+                  </div>
+                </div>
+
+              </div>
+            </section>
+            
+              <script>
+                function toggleCard(card) {
+                  card.classList.toggle('card-expanded');
+                  const description = card.querySelector('.description');
+                  description.style.display = (description.style.display === 'block') ? 'none' : 'block';
+                }
+              </script>
+            
 
 </body>
      

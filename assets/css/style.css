@@ -4,14 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
   }
 
   :root{
     --primary-color: #09456c;
     --font-title: 'Montserrat';
     --fontdefault: 'Poppins';
-
   }
 
 /* Estilos para resolução entre 300px e 800px */
@@ -41,7 +39,6 @@
   }
 
   .card {
- 
     width: 100; /* Cards ocupam a largura total */
     margin-right: 10%; 
     margin-bottom: .9rem; 
@@ -52,7 +49,6 @@
   .card-image-wrapper {
     width: 100%;
     }
-
 
     .card-image-wrapper {
       width: 100%; /* Tornar o card image wrapper responsivo */
@@ -68,7 +64,6 @@
     nav {
       width: 87.5rem; /*largura da tela */
       height: 3.3rem; /* Altura desejada em pixels */
-    
     }
   
     #cards-jogos{
@@ -76,9 +71,12 @@
       align-self: start;
       height: 80vh;
       padding-top: 5rem;
-     
-  
   }
+
+  #cards-jogos ul{
+    display: flex;
+    justify-content: space-around;
+}
 
     img {
       max-width: 100%; /* Imagens responsivas */
@@ -92,21 +90,14 @@
       box-sizing: border-box;
       max-width: 100%; /* Garante que o card não ultrapasse a largura da tela */
       margin-right: 10%; /* Espaçamento entre os cards */
-   } /* Evita que a largura 100% inclua as margens e cause quebras de linha */
-      /* Adicione mais ajustes de estilo conforme necessário para os cards em smartphones */
-    }
-  
-    .card-image-wrapper {
-      width: 100%; /* Wrapper de imagem do card expande para a largura total da tela */
-      /* Ajuste estilos conforme necessário para o wrapper de imagem do card em smartphones */
-    }
-  
+   }
 
+   }
+    
   /* Estilos para dispositivos de tela com largura entre 601 e 900 pixels (por exemplo, smartphones em modo paisagem e tablets) */
   @media only screen and (min-width: 601px) and (max-width: 900px) {
     body {
       font-size: 1rem;
-      /* Adicione mais ajustes de estilo conforme necessário para tablets e smartphones em modo paisagem */
     }
 
     nav {
@@ -115,13 +106,16 @@
       background-color: #333; /* Cor de fundo opcional */
     }
 
+    #cards-jogos ul{
+      display: flex;
+      justify-content: space-around;
+  }
+
     #cards-jogos{
       display: table-row;
       align-self: start;
       height: 80vh;
       padding-top: 5rem;
-      
-  
   }
   
     img {
@@ -162,9 +156,12 @@
       align-self: start;
       height: 90vh;
       padding-top: 5rem;
-     
-  
   }
+
+  #cards-jogos ul{
+    display: flex;
+    justify-content: space-around;
+}
   
     img {
       max-width: 100%; /* Imagens responsivas */
@@ -176,13 +173,11 @@
       width: 100; 
       margin-right: 10%; /* Espaçamento entre os cards */
       margin-bottom: .9rem; /* Espaçamento entre os cards */
-      /* Adicione mais ajustes de estilo conforme necessário para os cards em tablets e laptops */
     }
   
     .card-image-wrapper {
       width: 100%; /* Wrapper de imagem do card expande para a largura total da tela */
       margin-top: 10%;
-      /* Ajuste estilos conforme necessário para o wrapper de imagem do card em tablets e laptops */
     }
   
     .card-content{
@@ -196,7 +191,6 @@
       transform: translateY(2rem);
       transition: opacity 1s, transform 1s;
       align-items: flex-start;
-      
   }
 
   }
@@ -205,9 +199,12 @@
   @media only screen and (min-width: 1201px) {
     body {
       font-size: 1.25rem;
-      /* Adicione mais ajustes de estilo conforme necessário para computadores desktop e notebooks */
     }
     
+    #cards-jogos ul{
+      display: flex;
+      justify-content: space-around;
+  }
   
     img {
       max-width: 100%; /* Imagens responsivas */
@@ -221,7 +218,6 @@
       margin-bottom: .9rem;     
     }
 
-
   }
 
 /* Pseudo-elemento */
@@ -229,7 +225,6 @@
     content: '';
     background-image: url("../img/collab\ animes2.png") ;
     opacity: 0.5;
-    
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -237,8 +232,7 @@
     position: fixed;
     z-index: -1;
     left: 0;
-    top: 0;
-   
+    top: 0; 
 }
 
 header{
@@ -249,17 +243,16 @@ header{
     height: 90vh;
     position: static;
     padding-bottom: 3.8rem;
-    padding-right: 18rem;
+    padding-right: 1rem;
     overflow: visible;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
   html{
       scroll-behavior: smooth;
+    }
 
-}
 #menu{
   position: fixed;
   background-color: rgb(217, 103, 116);
@@ -274,7 +267,6 @@ header{
 
 #menu.open{
   transform: translateX(0%);
-
 }
 
 .icon {
@@ -292,14 +284,12 @@ header{
   cursor: pointer;
 }
 
-
 h1{
     color: rgb(0, 0, 0);
     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25);
     font-size: 4rem;
     font-family: var(--font-title);
-    font-weight: 700;
-    
+    font-weight: 700;  
 }
 
 header span{
@@ -308,9 +298,7 @@ header span{
     font-family: var(--font-title);
     font-size: 2.5rem;
     font-weight: 400;
-
 }
-
 
     .botao {
         display: inline-flex;
@@ -319,14 +307,13 @@ header span{
         gap: 1.2rem ;
         background-image: url('../img/icon.jpg');
         background-size: cover;
-        background-color: var(--primary-color);
         color: #ffe4e4;
         font-family: var(--fontdefault);
         text-decoration: wavy;
-        border-radius: .625rem;
-        
+        border-radius: .625rem;     
         transition: background-color 1s;
       }
+      
       .botao:hover{
         opacity: .8;
       }
@@ -340,12 +327,10 @@ header span{
       }
 
       #cards-jogos{
-        
         align-self: start;
         height: 95vh;
         padding-top: 5rem;
         background-image: url('../img/background\ cards.png');
-    
     }
     
     #cards-jogos img{
@@ -353,12 +338,10 @@ header span{
       flex-direction: row;
       gap: 1rem;
       justify-content: space-between;
-      max-width: 31.25rem;
-  
+      max-width: 31.25rem; 
     }
     
-    .card{
-        
+    .card{   
         max-width: 17.5rem;
         height: 23.75rem;
         position: relative;
@@ -376,8 +359,7 @@ header span{
         height: 23.75rem;
         width: 100%;
         overflow: hidden;
-        object-fit: cover;
-        
+        object-fit: cover;   
     }
     
     .card-content{
@@ -391,13 +373,11 @@ header span{
         transform: translateY(2rem);
         transition: opacity 1s, transform 1s;
         align-items: flex-start;
-        
     }
 
     .card-content a{
       background-image: none;
       background: rgba(0, 0, 1, 0.694);
-      
     }
     
     .card:hover .card-content{
@@ -409,5 +389,3 @@ header span{
         color: white;
         font-size: 1.5rem;
     }
-    
-
