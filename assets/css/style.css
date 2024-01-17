@@ -223,7 +223,7 @@
 /* Pseudo-elemento */
   header::before {
     content: '';
-    background-image: url("../img/collab\ animes2.png") ;
+    background-image: url("../img/shades_and_wallpapers/collab\ animes.png") ;
     opacity: 0.5;
     background-size: cover;
     height: 100%;
@@ -305,7 +305,7 @@ header span{
         padding: 1.25rem 2.5rem;
         align-items: start;
         gap: 1.2rem ;
-        background-image: url('../img/icon.jpg');
+        background-image: url('../img/shades_and_wallpapers/icon.jpg');
         background-size: cover;
         color: #ffe4e4;
         font-family: var(--fontdefault);
@@ -330,7 +330,7 @@ header span{
         align-self: start;
         height: 95vh;
         padding-top: 5rem;
-        background-image: url('../img/background\ cards.png');
+        background-image: url('../img/shades_and_wallpapers/background\ cards.png');
     }
     
     #cards-jogos img{

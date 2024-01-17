@@ -294,7 +294,7 @@ h1{
         padding: 1.25rem 2.5rem;
         align-items: center;
         gap: 1.2rem ;
-        background-image: url('../img/icon.jpg');
+        background-image: url('../img/shades_and_wallpapers/icon.jpg');
         background-size: cover;
         background-color: var(--primary-color);
         color: #ffe4e4;
@@ -321,7 +321,7 @@ h1{
         height: 100vh;
         width: 150%;
         padding-top: 5rem;
-        background-image: url('../img/background__.png');
+        background-image: url('../img/shades_and_wallpapers/background__.png');
         opacity: 0.95;
         position: relative;
     
@@ -394,7 +394,7 @@ h1{
       height: 130vh;
       width: 150%;
       padding-top: 5rem;
-      background-image: url('../img/medieval.png');
+      background-image: url('../img/shades_and_wallpapers/medieval.png');
       opacity: 0.8;
       
   }
@@ -474,17 +474,18 @@ h1{
   text-align: center;
   height: 4rem;
   font-weight: bold;
-  background: rgb(255,215,0);
-  background: linear-gradient(90deg, rgba(255,215,0,1) 25%, rgba(201,0,0,1) 55%, rgba(14,0,124,0.8379726890756303) 93%);
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,0.8239670868347339) 20%, rgba(0,0,0,0.8379726890756303) 75%);
  }
 
 .card-header3 .header-text3{
   font-size: 20px; 
   padding: 10px; /* Espaçamento interno para o texto no cabeçalho */ 
   text-align: center;
+  font-weight: bold;
   height: 4rem;
-  background: -webkit-linear-gradient(to right, #e74c3c, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(0,94,186);
+  background: linear-gradient(90deg, rgba(0,94,186,0.8239670868347339) 10%, rgba(89,10,199,1) 40%, rgba(255,0,0,0.8379726890756303) 85%);
 
 }
 
@@ -492,9 +493,10 @@ h1{
   font-size: 20px; 
   padding: 10px; /* Espaçamento interno para o texto no cabeçalho */ 
   text-align: center;
+  font-weight: bold;
   height: 4rem;
-  background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #e74c3c, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
@@ -502,9 +504,10 @@ h1{
   font-size: 20px; 
   padding: 10px; /* Espaçamento interno para o texto no cabeçalho */ 
   text-align: center;
+  font-weight: bold;
   height: 4rem;
-  background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(0,166,186);
+  background: linear-gradient(90deg, rgba(0,166,186,0.8239670868347339) 25%, rgba(255,42,0,0.8379726890756303) 75%);
 
 }
 
