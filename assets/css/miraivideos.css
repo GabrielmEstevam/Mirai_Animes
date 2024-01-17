@@ -421,7 +421,7 @@ h1{
 /* Parte dos mangas */
 
  #curiosidades .card {
-  margin-right: 30px;
+  margin-right: 1.9rem;
   overflow: hidden;
   transition: height 0.3s;
   cursor: pointer;
@@ -441,7 +441,7 @@ h1{
 }
 
 .card-expanded {
-  height: 1100px; /* Adjust the height for the expanded card */
+  height: 68.75rem; /* Adjust the height for the expanded card */
 }
 
 .description {
@@ -450,15 +450,15 @@ h1{
 
 .card-header {
   position: relative;
-  height: 60px; /* Altura desejada para o cabeçalho estilizado */
+  height: 3.75rem; /* Altura desejada para o cabeçalho estilizado */
   overflow: hidden;
 }
 
 /* Estilo do Cabeçalho dos Cards */
 
 .card-header .header-text {
-  font-size: 20px; 
-  padding: 10px; /* Espaçamento interno para o texto no cabeçalho */ 
+  font-size: 1.25rem; 
+  padding: .6rem; /* Espaçamento interno para o texto no cabeçalho */ 
   text-align: center;
   height: 4rem;
   font-weight: bold;
@@ -469,8 +469,8 @@ h1{
 }
 
  .card-header2 .header-text2{
-  font-size: 20px; 
-  padding: 10px; /* Espaçamento interno para o texto no cabeçalho */ 
+  font-size: 1.25rem; 
+  padding: .6rem; /* Espaçamento interno para o texto no cabeçalho */ 
   text-align: center;
   height: 4rem;
   font-weight: bold;
@@ -479,8 +479,8 @@ h1{
  }
 
 .card-header3 .header-text3{
-  font-size: 20px; 
-  padding: 10px; /* Espaçamento interno para o texto no cabeçalho */ 
+  font-size: 1.25rem; 
+  padding: .6rem; /* Espaçamento interno para o texto no cabeçalho */ 
   text-align: center;
   font-weight: bold;
   height: 4rem;
@@ -490,8 +490,8 @@ h1{
 }
 
 .card-header4 .header-text4{
-  font-size: 20px; 
-  padding: 10px; /* Espaçamento interno para o texto no cabeçalho */ 
+  font-size: 1.25rem; 
+  padding: .6rem; /* Espaçamento interno para o texto no cabeçalho */ 
   text-align: center;
   font-weight: bold;
   height: 4rem;
@@ -501,8 +501,8 @@ h1{
 
 
 .card-header5 .header-text5{
-  font-size: 20px; 
-  padding: 10px; /* Espaçamento interno para o texto no cabeçalho */ 
+  font-size: 1.25rem; 
+  padding: .6rem; /* Espaçamento interno para o texto no cabeçalho */ 
   text-align: center;
   font-weight: bold;
   height: 4rem;
