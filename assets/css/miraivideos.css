@@ -129,15 +129,7 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      width: 373.4%; /* Ajuste conforme necessário */
-      overflow-x: auto;
-      margin: auto;
-    }
-
-    #curiosidades .card-container {
-      display: flex;
-      justify-content: space-between;
-      width: 300%;
+      width: 339.8%;
       overflow-x: auto;
       margin: auto;
     }
@@ -180,7 +172,7 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      width: 373.4%; /* Ajuste conforme necessário */
+      width: 182.3%; /* Ajuste conforme necessário */
       overflow-x: auto;
       margin: auto;
     }
@@ -288,7 +280,7 @@
   #curiosidades .card-container {
     display: flex;
     justify-content: space-between;
-    width: 300%;
+    width: 143.7%;
     overflow-x: auto;
     margin: auto;
   }
