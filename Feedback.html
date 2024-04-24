@@ -54,6 +54,35 @@
             }
         }
 
+        @media (max-width: 768px) {
+    .carousel-item {
+        height: 200px; /* diminuir a altura do carrossel */
+    }
+
+    .navbar-brand {
+        font-size: 18px; /* diminuir o tamanho da fonte da marca da navbar */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 14px; /* diminuir o tamanho da fonte dos links da navbar */
+    }
+}
+
+/* CSS for larger screens */
+@media (min-width: 769px) {
+    .carousel-item {
+        height: 600px;
+    }
+
+    .navbar-brand {
+        font-size: 24px; /* aumentar o tamanho da fonte da marca da navbar */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 18px; /* aumentar o tamanho da fonte dos links da navbar */
+    }
+}
+
     </style>
 </head>
 <body>
